@@ -1,0 +1,36 @@
+
+.age-confirm-modal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  max-width: 900px;
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  background: linear-gradient(90deg, #34a6a8,#1b2b65,#490a66,#970da0);
+  font-size: 20px;
+}
+
+.age-confirm-modal__control {
+  display: flex;
+  gap: 40px;
+}
+
+.age-confirm-modal__title{
+  max-width: 700px;
+  padding-inline: 30px;
+  font-size: 30px;
+}
+
+.age-confirm-modal__control button {
+  padding: 20px;
+  transition: all 0.3s ease;
+  border: 1px solid #970da0;
+}
+.age-confirm-modal__control button:hover {
+   background-color: #970da0;
+}

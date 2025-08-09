@@ -1,0 +1,36 @@
+.user-registration {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+
+.user-registration__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(90deg, #f06419,#e27aff,#29ffbf);
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.user-registration__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.user-registration__input {
+  padding: 20px;
+}
+
+.user-registration__submit {
+  background: linear-gradient(90deg, #1a2a6c,#511a6b,#b21f1f,#f1681e,#ffb005);
+  padding: 15px;
+}

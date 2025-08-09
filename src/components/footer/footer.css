@@ -1,0 +1,10 @@
+
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: linear-gradient(90deg, #262626,#232967,#2936c7,#7586e1);
+  font-size: 2.188rem;
+}

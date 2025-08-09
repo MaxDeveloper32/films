@@ -1,0 +1,120 @@
+.slider-container {
+  position: relative;
+  margin: 0 auto;
+  padding-inline: 50px;
+  padding-bottom: 30px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(192, 4, 4, 0.5);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.slider-container .swiper-pagination-bullets {
+  bottom: 0;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: rgb(75, 74, 74);
+  opacity: 1;
+  border: 1px solid white;
+}
+
+.swiper-pagination-bullet-active {
+  background: #e60909;
+}
+
+.films-swiper__image-block {
+  max-width: 250px;
+  width: 100%;
+}
+
+.films-section .swiper-slide img {
+  width: 100%;
+  border-radius: 4px;
+  height: auto;
+  display: block;
+}
+
+.films-swiper__item {
+  position: relative;
+}
+
+.films-swiper__rating {
+  position: absolute;
+  display: inline-block;
+  padding: 5px 15px;
+  color: white;
+  top: 10px;
+  left: 5px;
+  font-size: 20px;
+}
+
+.films-swiper__rating--green {
+  background-color: rgb(5, 88, 5);
+}
+
+.films-swiper__rating--gray {
+  background-color: gray;
+}
+
+.films-swiper__rating--red {
+  background-color: rgb(92, 1, 1);
+}
+
+.films-swiper__rating--top {
+  background: linear-gradient(165deg, #ffd25e 16.44%, #b59646 63.42%);
+  display: inline-block;
+}
+
+.films-swiper__rating--top::before,
+.films-swiper__rating--top::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  filter: brightness(0) invert(1);
+}
+
+.films-swiper__rating--top::before {
+  background-image: url('/images/icons/left-pen.svg');
+  left: -3px;
+}
+
+
+.films-swiper__rating--top::after {
+  background-image: url('/images/icons/right-pen.svg');
+  right: -3px;
+}
+

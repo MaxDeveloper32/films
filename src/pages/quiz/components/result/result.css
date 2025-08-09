@@ -1,0 +1,12 @@
+.result-quiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 40px;
+}
+
+.result-quiz__result {
+  color: red;
+}

@@ -1,0 +1,19 @@
+.buy-goods {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: auto;
+  border-top: 1px solid rgb(51, 1, 51);
+  width: 100%;
+  padding: 10px;
+}
+
+.buy-goods__total {
+  font-size: 25px;
+}
+.buy-goods__sum {
+ background: linear-gradient(90deg, #ee6ef5,#57b9ff);
+ padding: 10px;
+ margin-left: 10px;
+}

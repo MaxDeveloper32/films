@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150" width="300" height="150">
+  <!-- Фиолетовый градиент -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6A0DAD" />
+      <stop offset="100%" stop-color="#B399D4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Фон (прозрачный или с легкой заливкой) -->
+  <rect width="100%" height="100%" fill="none" />
+
+  <!-- Иконка киноплёнки -->
+  <path d="M50,75 L30,60 L30,90 L50,75 Z M70,60 L70,90 L90,75 L70,60 Z M110,60 L110,90 L130,75 L110,60 Z"
+        fill="url(#gradient)" stroke="#4B0082" stroke-width="2" />
+  <rect x="30" y="65" width="100" height="20" fill="none" stroke="#4B0082" stroke-width="2" rx="2" />
+
+  <!-- Текст "Film Grand" -->
+  <text x="150" y="90" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#gradient)" text-anchor="middle">
+    FILM GRAND
+  </text>
+
+  <!-- Дополнительный акцент (необязательно) -->
+  <line x1="120" y1="100" x2="180" y2="100" stroke="#8A2BE2" stroke-width="3" stroke-linecap="round" />
+</svg>
