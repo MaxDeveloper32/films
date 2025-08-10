@@ -24,7 +24,7 @@ const AppRoutes = () => {
         },
         { path: 'shopping', element: (
            <PrivateRoute>
-              <ProductList />  // Этот компонент доступен только авторизованным
+              <ProductList />
             </PrivateRoute>
         ) },
         { path: 'quiz', element: <Quiz /> },
