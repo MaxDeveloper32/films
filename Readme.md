@@ -1,18 +1,18 @@
-# 🎬 Films - Movies on the stack React + RTK Query + TS
----
+# 🎬 Movie Explorer App | React + RTK Query + TypeScript  
 
 <p align="center">
-  <img src="./public/readme-prew.png">
-</p>
+  <img src="./public/readme-prew.png" alt="Movie Explorer Preview">
+</p>  
 
-## Main features: 
- - Живой поиск фильмов
- - Swiper  для слайдера
- - Квиз игра на знание фильмов
- - Корзина покупок
- 
+## 🚀 Features  
+- **Real-time movie search** (debounced API requests)  
+- **Interactive Swiper slider** for trending movies  
+- **Movie quiz game** (test your film knowledge)  
+- **Mock shopping cart** (add/remove movies)  
 
-
-
-## The following technologies are used in this project:
-React + Redux Toolkit Query + MSW + Swiper + React Hook Form
+## 🛠 Tech Stack  
+- **React** + **TypeScript**  
+- **Redux Toolkit Query** (RTK Query) for API state management  
+- **Swiper.js** for sliders  
+- **React Hook Form** for forms  
+- **MSW (Mock Service Worker)** for API mocking (dev) 
